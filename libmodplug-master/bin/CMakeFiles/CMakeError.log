@@ -1,0 +1,42 @@
+Determining if the function setenv exists failed with the following output:
+Change Dir: F:/libmodplug-master/bin/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_8fdf1.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.23107.0
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 6/9/2016 9:25:22 PM.
+Project "F:\libmodplug-master\bin\CMakeFiles\CMakeTmp\cmTC_8fdf1.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_8fdf1.dir\Debug\".
+  Creating directory "F:\libmodplug-master\bin\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_8fdf1.dir\Debug\cmTC_8fdf1.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_8fdf1.dir\Debug\cmTC_8fdf1.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=setenv /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_8fdf1.dir\Debug\\" /Fd"cmTC_8fdf1.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.6\Modules\CheckFunctionExists.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.23026 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=setenv /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_8fdf1.dir\Debug\\" /Fd"cmTC_8fdf1.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.6\Modules\CheckFunctionExists.c"
+  
+  CheckFunctionExists.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"F:\libmodplug-master\bin\CMakeFiles\CMakeTmp\Debug\cmTC_8fdf1.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:/libmodplug-master/bin/CMakeFiles/CMakeTmp/Debug/cmTC_8fdf1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/libmodplug-master/bin/CMakeFiles/CMakeTmp/Debug/cmTC_8fdf1.lib" /MACHINE:X64  /machine:x64 cmTC_8fdf1.dir\Debug\CheckFunctionExists.obj
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol setenv referenced in function main [F:\libmodplug-master\bin\CMakeFiles\CMakeTmp\cmTC_8fdf1.vcxproj]
+F:\libmodplug-master\bin\CMakeFiles\CMakeTmp\Debug\cmTC_8fdf1.exe : fatal error LNK1120: 1 unresolved externals [F:\libmodplug-master\bin\CMakeFiles\CMakeTmp\cmTC_8fdf1.vcxproj]
+Done Building Project "F:\libmodplug-master\bin\CMakeFiles\CMakeTmp\cmTC_8fdf1.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"F:\libmodplug-master\bin\CMakeFiles\CMakeTmp\cmTC_8fdf1.vcxproj" (default target) (1) ->
+(Link target) -> 
+  CheckFunctionExists.obj : error LNK2019: unresolved external symbol setenv referenced in function main [F:\libmodplug-master\bin\CMakeFiles\CMakeTmp\cmTC_8fdf1.vcxproj]
+  F:\libmodplug-master\bin\CMakeFiles\CMakeTmp\Debug\cmTC_8fdf1.exe : fatal error LNK1120: 1 unresolved externals [F:\libmodplug-master\bin\CMakeFiles\CMakeTmp\cmTC_8fdf1.vcxproj]
+
+    0 Warning(s)
+    2 Error(s)
+
+Time Elapsed 00:00:00.81
+
+

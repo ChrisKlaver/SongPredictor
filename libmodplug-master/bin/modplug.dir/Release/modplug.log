@@ -1,0 +1,312 @@
+﻿Build started 7/9/2016 3:37:38 PM.
+     1>Project "F:\libmodplug-master\bin\modplug.vcxproj" on node 2 (Rebuild target(s)).
+     1>CustomBuild:
+         Building Custom Rule F:/libmodplug-master/CMakeLists.txt
+         CMake does not need to re-run because F:\libmodplug-master\bin\CMakeFiles\generate.stamp is up-to-date.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /I"F:\libmodplug-master\src" /I"F:\libmodplug-master\src\libmodplug" /I"F:\libmodplug-master\bin" /nologo /W3 /WX- /O2 /Ob2 /D WIN32 /D _WINDOWS /D NDEBUG /D MODPLUG_BUILD /D _USE_MATH_DEFINES /D NOMINMAX /D DLL_EXPORT /D HAVE_SINF /D "CMAKE_INTDIR=\"Release\"" /D modplug_EXPORTS /D _WINDLL /D _MBCS /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"modplug.dir\Release\\" /Fd"modplug.dir\Release\vc140.pdb" /Gd /TP /errorReport:prompt "F:\libmodplug-master\src\fastmix.cpp" "F:\libmodplug-master\src\load_669.cpp" "F:\libmodplug-master\src\load_abc.cpp" "F:\libmodplug-master\src\load_amf.cpp" "F:\libmodplug-master\src\load_ams.cpp" "F:\libmodplug-master\src\load_dbm.cpp" "F:\libmodplug-master\src\load_dmf.cpp" "F:\libmodplug-master\src\load_dsm.cpp" "F:\libmodplug-master\src\load_far.cpp" "F:\libmodplug-master\src\load_it.cpp" "F:\libmodplug-master\src\load_j2b.cpp" "F:\libmodplug-master\src\load_mdl.cpp" "F:\libmodplug-master\src\load_med.cpp" "F:\libmodplug-master\src\load_mid.cpp" "F:\libmodplug-master\src\load_mod.cpp" "F:\libmodplug-master\src\load_mt2.cpp" "F:\libmodplug-master\src\load_mtm.cpp" "F:\libmodplug-master\src\load_okt.cpp" "F:\libmodplug-master\src\load_pat.cpp" "F:\libmodplug-master\src\load_psm.cpp" "F:\libmodplug-master\src\load_ptm.cpp" "F:\libmodplug-master\src\load_s3m.cpp" "F:\libmodplug-master\src\load_stm.cpp" "F:\libmodplug-master\src\load_ult.cpp" "F:\libmodplug-master\src\load_umx.cpp" "F:\libmodplug-master\src\load_wav.cpp" "F:\libmodplug-master\src\load_xm.cpp" "F:\libmodplug-master\src\mmcmp.cpp" "F:\libmodplug-master\src\modplug.cpp" "F:\libmodplug-master\src\snd_dsp.cpp" "F:\libmodplug-master\src\snd_flt.cpp" "F:\libmodplug-master\src\snd_fx.cpp" "F:\libmodplug-master\src\sndfile.cpp" "F:\libmodplug-master\src\sndmix.cpp"
+         fastmix.cpp
+         load_669.cpp
+         load_abc.cpp
+     1>F:\libmodplug-master\src\load_abc.cpp(262): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+     1>F:\libmodplug-master\src\load_abc.cpp(264): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+     1>F:\libmodplug-master\src\load_abc.cpp(315): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+     1>F:\libmodplug-master\src\load_abc.cpp(393): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\string.h(119): note: see declaration of 'strcpy'
+     1>F:\libmodplug-master\src\load_abc.cpp(433): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(205): note: see declaration of 'fopen'
+     1>F:\libmodplug-master\src\load_abc.cpp(600): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\string.h(346): note: see declaration of 'strncpy'
+     1>F:\libmodplug-master\src\load_abc.cpp(864): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\string.h(346): note: see declaration of 'strncpy'
+     1>F:\libmodplug-master\src\load_abc.cpp(1829): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+     1>F:\libmodplug-master\src\load_abc.cpp(1839): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+     1>F:\libmodplug-master\src\load_abc.cpp(2020): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\string.h(119): note: see declaration of 'strcpy'
+     1>F:\libmodplug-master\src\load_abc.cpp(2192): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+     1>F:\libmodplug-master\src\load_abc.cpp(2193): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+     1>F:\libmodplug-master\src\load_abc.cpp(2197): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+     1>F:\libmodplug-master\src\load_abc.cpp(2207): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\string.h(119): note: see declaration of 'strcpy'
+     1>F:\libmodplug-master\src\load_abc.cpp(2208): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\string.h(90): note: see declaration of 'strcat'
+     1>F:\libmodplug-master\src\load_abc.cpp(2217): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+     1>F:\libmodplug-master\src\load_abc.cpp(2220): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\string.h(119): note: see declaration of 'strcpy'
+     1>F:\libmodplug-master\src\load_abc.cpp(2222): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+     1>F:\libmodplug-master\src\load_abc.cpp(2257): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+     1>F:\libmodplug-master\src\load_abc.cpp(2347): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\string.h(119): note: see declaration of 'strcpy'
+     1>F:\libmodplug-master\src\load_abc.cpp(2349): warning C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdlib.h(1183): note: see declaration of 'getenv'
+     1>F:\libmodplug-master\src\load_abc.cpp(2355): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+     1>F:\libmodplug-master\src\load_abc.cpp(2363): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+     1>F:\libmodplug-master\src\load_abc.cpp(2647): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\string.h(119): note: see declaration of 'strcpy'
+     1>F:\libmodplug-master\src\load_abc.cpp(2708): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\string.h(119): note: see declaration of 'strcpy'
+     1>F:\libmodplug-master\src\load_abc.cpp(3093): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+     1>F:\libmodplug-master\src\load_abc.cpp(3124): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+     1>F:\libmodplug-master\src\load_abc.cpp(3189): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+     1>F:\libmodplug-master\src\load_abc.cpp(3533): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\string.h(119): note: see declaration of 'strcpy'
+     1>F:\libmodplug-master\src\load_abc.cpp(3534): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\string.h(90): note: see declaration of 'strcat'
+     1>F:\libmodplug-master\src\load_abc.cpp(3705): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\string.h(119): note: see declaration of 'strcpy'
+     1>F:\libmodplug-master\src\load_abc.cpp(3713): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\string.h(119): note: see declaration of 'strcpy'
+     1>F:\libmodplug-master\src\load_abc.cpp(3748): warning C4267: '=': conversion from 'size_t' to 'uint32_t', possible loss of data
+     1>F:\libmodplug-master\src\load_abc.cpp(3751): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\string.h(119): note: see declaration of 'strcpy'
+     1>F:\libmodplug-master\src\load_abc.cpp(3753): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\string.h(90): note: see declaration of 'strcat'
+     1>F:\libmodplug-master\src\load_abc.cpp(3754): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\string.h(90): note: see declaration of 'strcat'
+     1>F:\libmodplug-master\src\load_abc.cpp(3756): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\string.h(119): note: see declaration of 'strcpy'
+     1>F:\libmodplug-master\src\load_abc.cpp(3895): warning C4267: '=': conversion from 'size_t' to 'uint32_t', possible loss of data
+     1>F:\libmodplug-master\src\load_abc.cpp(3898): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\string.h(119): note: see declaration of 'strcpy'
+     1>F:\libmodplug-master\src\load_abc.cpp(3900): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\string.h(90): note: see declaration of 'strcat'
+     1>F:\libmodplug-master\src\load_abc.cpp(3901): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\string.h(90): note: see declaration of 'strcat'
+     1>F:\libmodplug-master\src\load_abc.cpp(3903): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\string.h(119): note: see declaration of 'strcpy'
+     1>F:\libmodplug-master\src\load_abc.cpp(3723): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+     1>F:\libmodplug-master\src\load_abc.cpp(3776): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+     1>F:\libmodplug-master\src\load_abc.cpp(3858): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+     1>F:\libmodplug-master\src\load_abc.cpp(3869): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+     1>F:\libmodplug-master\src\load_abc.cpp(3875): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+     1>F:\libmodplug-master\src\load_abc.cpp(4062): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+     1>F:\libmodplug-master\src\load_abc.cpp(4072): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+     1>F:\libmodplug-master\src\load_abc.cpp(4327): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+     1>F:\libmodplug-master\src\load_abc.cpp(4696): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+     1>F:\libmodplug-master\src\load_abc.cpp(4728): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+     1>F:\libmodplug-master\src\load_abc.cpp(4771): warning C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdlib.h(1183): note: see declaration of 'getenv'
+         load_amf.cpp
+         load_ams.cpp
+         load_dbm.cpp
+         load_dmf.cpp
+     1>F:\libmodplug-master\src\load_dmf.cpp(605): warning C4244: 'return': conversion from '__int64' to 'int', possible loss of data
+         load_dsm.cpp
+         load_far.cpp
+         load_it.cpp
+     1>F:\libmodplug-master\src\load_it.cpp(693): warning C4267: '=': conversion from 'size_t' to 'WORD', possible loss of data
+     1>F:\libmodplug-master\src\load_it.cpp(771): warning C4267: '+=': conversion from 'size_t' to 'DWORD', possible loss of data
+     1>F:\libmodplug-master\src\load_it.cpp(619): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(205): note: see declaration of 'fopen'
+         load_j2b.cpp
+         load_mdl.cpp
+         load_med.cpp
+         load_mid.cpp
+     1>F:\libmodplug-master\src\load_mid.cpp(213): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+     1>F:\libmodplug-master\src\load_mid.cpp(1077): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+     1>F:\libmodplug-master\src\load_mid.cpp(1131): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+     1>F:\libmodplug-master\src\load_mid.cpp(1233): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\string.h(119): note: see declaration of 'strcpy'
+     1>F:\libmodplug-master\src\load_mid.cpp(1428): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\string.h(119): note: see declaration of 'strcpy'
+     1>F:\libmodplug-master\src\load_mid.cpp(1187): warning C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdlib.h(1183): note: see declaration of 'getenv'
+     1>F:\libmodplug-master\src\load_mid.cpp(1188): warning C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdlib.h(1183): note: see declaration of 'getenv'
+     1>F:\libmodplug-master\src\load_mid.cpp(1212): warning C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdlib.h(1183): note: see declaration of 'getenv'
+     1>F:\libmodplug-master\src\load_mid.cpp(1447): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+         load_mod.cpp
+     1>F:\libmodplug-master\src\load_mod.cpp(413): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(205): note: see declaration of 'fopen'
+         load_mt2.cpp
+         load_mtm.cpp
+     1>F:\libmodplug-master\src\load_mtm.cpp(61): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\string.h(346): note: see declaration of 'strncpy'
+     1>F:\libmodplug-master\src\load_mtm.cpp(73): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\string.h(346): note: see declaration of 'strncpy'
+         load_okt.cpp
+         load_pat.cpp
+     1>F:\libmodplug-master\src\load_pat.cpp(166): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+     1>F:\libmodplug-master\src\load_pat.cpp(181): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+     1>F:\libmodplug-master\src\load_pat.cpp(186): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+     1>F:\libmodplug-master\src\load_pat.cpp(219): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+     1>F:\libmodplug-master\src\load_pat.cpp(370): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\string.h(90): note: see declaration of 'strcat'
+     1>F:\libmodplug-master\src\load_pat.cpp(371): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\string.h(90): note: see declaration of 'strcat'
+     1>F:\libmodplug-master\src\load_pat.cpp(446): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\string.h(119): note: see declaration of 'strcpy'
+     1>F:\libmodplug-master\src\load_pat.cpp(454): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\string.h(119): note: see declaration of 'strcpy'
+     1>F:\libmodplug-master\src\load_pat.cpp(364): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\string.h(346): note: see declaration of 'strncpy'
+     1>F:\libmodplug-master\src\load_pat.cpp(365): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\string.h(346): note: see declaration of 'strncpy'
+     1>F:\libmodplug-master\src\load_pat.cpp(366): warning C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdlib.h(1183): note: see declaration of 'getenv'
+     1>F:\libmodplug-master\src\load_pat.cpp(368): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\string.h(346): note: see declaration of 'strncpy'
+     1>F:\libmodplug-master\src\load_pat.cpp(369): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\string.h(346): note: see declaration of 'strncpy'
+     1>F:\libmodplug-master\src\load_pat.cpp(373): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\string.h(346): note: see declaration of 'strncpy'
+     1>F:\libmodplug-master\src\load_pat.cpp(380): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(205): note: see declaration of 'fopen'
+     1>F:\libmodplug-master\src\load_pat.cpp(468): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\string.h(119): note: see declaration of 'strcpy'
+     1>F:\libmodplug-master\src\load_pat.cpp(467): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+     1>F:\libmodplug-master\src\load_pat.cpp(471): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+     1>F:\libmodplug-master\src\load_pat.cpp(479): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\string.h(346): note: see declaration of 'strncpy'
+     1>F:\libmodplug-master\src\load_pat.cpp(495): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\string.h(346): note: see declaration of 'strncpy'
+     1>F:\libmodplug-master\src\load_pat.cpp(542): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\string.h(346): note: see declaration of 'strncpy'
+     1>F:\libmodplug-master\src\load_pat.cpp(607): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(205): note: see declaration of 'fopen'
+     1>F:\libmodplug-master\src\load_pat.cpp(688): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(205): note: see declaration of 'fopen'
+     1>F:\libmodplug-master\src\load_pat.cpp(1027): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\string.h(119): note: see declaration of 'strcpy'
+     1>F:\libmodplug-master\src\load_pat.cpp(1031): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\string.h(119): note: see declaration of 'strcpy'
+     1>F:\libmodplug-master\src\load_pat.cpp(1018): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\string.h(346): note: see declaration of 'strncpy'
+     1>F:\libmodplug-master\src\load_pat.cpp(1022): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\string.h(346): note: see declaration of 'strncpy'
+     1>F:\libmodplug-master\src\load_pat.cpp(1024): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\string.h(346): note: see declaration of 'strncpy'
+     1>F:\libmodplug-master\src\load_pat.cpp(1028): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\string.h(346): note: see declaration of 'strncpy'
+     1>F:\libmodplug-master\src\load_pat.cpp(1059): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+     1>F:\libmodplug-master\src\load_pat.cpp(1062): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\string.h(346): note: see declaration of 'strncpy'
+     1>F:\libmodplug-master\src\load_pat.cpp(1123): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\string.h(346): note: see declaration of 'strncpy'
+     1>F:\libmodplug-master\src\load_pat.cpp(1157): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\string.h(119): note: see declaration of 'strcpy'
+     1>F:\libmodplug-master\src\load_pat.cpp(1187): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\string.h(119): note: see declaration of 'strcpy'
+     1>F:\libmodplug-master\src\load_pat.cpp(1190): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\string.h(119): note: see declaration of 'strcpy'
+     1>F:\libmodplug-master\src\load_pat.cpp(1215): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\string.h(119): note: see declaration of 'strcpy'
+     1>F:\libmodplug-master\src\load_pat.cpp(1153): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+     1>F:\libmodplug-master\src\load_pat.cpp(1155): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+     1>F:\libmodplug-master\src\load_pat.cpp(1184): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+     1>F:\libmodplug-master\src\load_pat.cpp(1206): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+     1>F:\libmodplug-master\src\load_pat.cpp(1209): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+     1>F:\libmodplug-master\src\load_pat.cpp(1211): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+     1>F:\libmodplug-master\src\load_pat.cpp(1240): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\string.h(346): note: see declaration of 'strncpy'
+     1>F:\libmodplug-master\src\load_pat.cpp(1242): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\string.h(346): note: see declaration of 'strncpy'
+         load_psm.cpp
+         Generating Code...
+         Compiling...
+         load_ptm.cpp
+         load_s3m.cpp
+     1>F:\libmodplug-master\src\load_s3m.cpp(312): warning C4244: '=': conversion from 'DWORD' to 'WORD', possible loss of data
+     1>F:\libmodplug-master\src\load_s3m.cpp(440): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(205): note: see declaration of 'fopen'
+         load_stm.cpp
+         load_ult.cpp
+         load_umx.cpp
+     1>F:\libmodplug-master\src\load_umx.cpp(179): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\string.h(119): note: see declaration of 'strcpy'
+         load_wav.cpp
+         load_xm.cpp
+     1>F:\libmodplug-master\src\load_xm.cpp(841): warning C4267: '=': conversion from 'size_t' to 'DWORD', possible loss of data
+     1>F:\libmodplug-master\src\load_xm.cpp(600): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(205): note: see declaration of 'fopen'
+         mmcmp.cpp
+         modplug.cpp
+         snd_dsp.cpp
+         snd_flt.cpp
+     1>F:\libmodplug-master\src\snd_flt.cpp(59): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+     1>F:\libmodplug-master\src\snd_flt.cpp(61): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+     1>F:\libmodplug-master\src\snd_flt.cpp(79): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+     1>F:\libmodplug-master\src\snd_flt.cpp(83): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+         snd_fx.cpp
+         sndfile.cpp
+     1>F:\libmodplug-master\src\sndfile.cpp(798): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\string.h(119): note: see declaration of 'strcpy'
+     1>F:\libmodplug-master\src\sndfile.cpp(799): warning C4267: 'return': conversion from 'size_t' to 'UINT', possible loss of data
+     1>F:\libmodplug-master\src\sndfile.cpp(815): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\string.h(119): note: see declaration of 'strcpy'
+     1>F:\libmodplug-master\src\sndfile.cpp(816): warning C4267: 'return': conversion from 'size_t' to 'UINT', possible loss of data
+         sndmix.cpp
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"F:\libmodplug-master\bin\Release\modplug.dll" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"F:/libmodplug-master/bin/Release/modplug.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/libmodplug-master/bin/Release/modplug.lib" /MACHINE:X64  /machine:x64 /DLL modplug.dir\Release\fastmix.obj
+         modplug.dir\Release\load_669.obj
+         modplug.dir\Release\load_abc.obj
+         modplug.dir\Release\load_amf.obj
+         modplug.dir\Release\load_ams.obj
+         modplug.dir\Release\load_dbm.obj
+         modplug.dir\Release\load_dmf.obj
+         modplug.dir\Release\load_dsm.obj
+         modplug.dir\Release\load_far.obj
+         modplug.dir\Release\load_it.obj
+         modplug.dir\Release\load_j2b.obj
+         modplug.dir\Release\load_mdl.obj
+         modplug.dir\Release\load_med.obj
+         modplug.dir\Release\load_mid.obj
+         modplug.dir\Release\load_mod.obj
+         modplug.dir\Release\load_mt2.obj
+         modplug.dir\Release\load_mtm.obj
+         modplug.dir\Release\load_okt.obj
+         modplug.dir\Release\load_pat.obj
+         modplug.dir\Release\load_psm.obj
+         modplug.dir\Release\load_ptm.obj
+         modplug.dir\Release\load_s3m.obj
+         modplug.dir\Release\load_stm.obj
+         modplug.dir\Release\load_ult.obj
+         modplug.dir\Release\load_umx.obj
+         modplug.dir\Release\load_wav.obj
+         modplug.dir\Release\load_xm.obj
+         modplug.dir\Release\mmcmp.obj
+         modplug.dir\Release\modplug.obj
+         modplug.dir\Release\snd_dsp.obj
+         modplug.dir\Release\snd_flt.obj
+         modplug.dir\Release\snd_fx.obj
+         modplug.dir\Release\sndfile.obj
+         modplug.dir\Release\sndmix.obj
+            Creating library F:/libmodplug-master/bin/Release/modplug.lib and object F:/libmodplug-master/bin/Release/modplug.exp
+         modplug.vcxproj -> F:\libmodplug-master\bin\Release\modplug.dll
+     1>Done Building Project "F:\libmodplug-master\bin\modplug.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:08.72

@@ -1,0 +1,4 @@
+F:/libmodplug-master/bin/CMakeFiles/INSTALL.dir
+F:/libmodplug-master/bin/CMakeFiles/modplug.dir
+F:/libmodplug-master/bin/CMakeFiles/ALL_BUILD.dir
+F:/libmodplug-master/bin/CMakeFiles/ZERO_CHECK.dir
