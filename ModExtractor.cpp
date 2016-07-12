@@ -43,12 +43,29 @@ int main(int argc, char** argv)
 			std::cout << "worked";
 		}
 
-		// time to export it again
-		/*Export to a Impulse Tracker IT file. Should work OK in Little-Endian & Big-Endian platforms :-) */
-		const char* const path = "f:\\thinktwice.it";
-		const char retCode = ModPlug_ExportIT(file.get(), path);
-
-		std::cout << retCode;
+		const std::size_t numPatterns = ModPlug_NumPatterns(file.get());
+		for (int i = 0; i < numPatterns; ++i)
+		{
+			std::cout << "Pattern: " << i << std::endl;
+			unsigned int numRows;
+			ModPlugNote* notes = ModPlug_GetPattern(file.get(), i, &numRows);
+			for (unsigned int row = 0; row < numRows; ++row)
+			{
+				std::cout << "Row num: " << row;
+				const ModPlugNote& note = notes[row];
+				std::cout << "Note: " << note.Note << " Instrument:" << static_cast<int>(note.Instrument) << std::endl;
+				/*
+				unsigned char Note;
+				unsigned char Instrument;
+				unsigned char VolumeEffect;
+				unsigned char Effect;
+				unsigned char Volume;
+				unsigned char Parameter;
+				*/
+			}
+			break;
+		}
+		
 	}
 	else
 	{
