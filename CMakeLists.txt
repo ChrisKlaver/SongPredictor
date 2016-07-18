@@ -10,6 +10,8 @@ include_directories(AFTER
 
 add_executable(ModExtractor
   ModExtractor.cpp
+  ModPlugFileHandle.cpp
+  ModPlugFileHandle.h
   )
   
 target_link_libraries(ModExtractor modplug)

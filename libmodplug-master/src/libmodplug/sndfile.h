@@ -611,6 +611,9 @@ public:
 	UINT GetSongComments(LPSTR s, UINT cbsize, UINT linesize=32);
 	UINT GetRawSongComments(LPSTR s, UINT cbsize, UINT linesize=32);
 	UINT GetMaxPosition() const;
+	inline const BYTE* GetOrders() const {
+		return Order;
+	}
 	void SetCurrentPos(UINT nPos);
 	void SetCurrentOrder(UINT nOrder);
 	void GetTitle(LPSTR s) const { lstrcpyn(s,m_szNames[0],32); }
