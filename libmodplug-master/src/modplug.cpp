@@ -241,7 +241,11 @@ unsigned int ModPlug_InstrumentName(ModPlugFile* file,unsigned int qual,char* bu
 
 ModPlugNote* ModPlug_GetPatternAtOrder(ModPlugFile* file, int order, unsigned int* numRows)
 {
-
+	if (order < MAX_ORDERS && order >= 0 && file->mSoundFile.Order[order] != 0xFF )
+	{
+		const int pattern = file->mSoundFile.Order[order];
+		return ModPlug_GetPattern(file, pattern, numRows);
+	}
 }
 
 ModPlugNote* ModPlug_GetPattern(ModPlugFile* file,int pattern,unsigned int* numrows) {

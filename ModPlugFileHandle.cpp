@@ -1,21 +1,17 @@
 #include "ModPlugFileHandle.h"
 #include "modplug.h"
-
-namespace ModExtractor
-{
 	
-	ModPlugFileHandle::ModPlugFileHandle(ModPlugFile* modPlugFile) :m_modPlugFile( modPlugFile )
-	{
-	}
-
-	ModPlugFileHandle::~ModPlugFileHandle(void)
-	{
-		ModPlug_Unload(m_modPlugFile);
-	}
-
-	ModPlugFile* ModPlugFileHandle::get(void)
-	{
-		return m_modPlugFile;
-	}
-
+ModExtractor::ModPlugFileHandle::ModPlugFileHandle(_ModPlugFile* modPlugFile) :m_modPlugFile( modPlugFile )
+{
 }
+
+ModExtractor::ModPlugFileHandle::~ModPlugFileHandle(void)
+{
+	ModPlug_Unload(m_modPlugFile);
+}
+
+_ModPlugFile* ModExtractor::ModPlugFileHandle::get(void)
+{
+	return m_modPlugFile;
+}
+

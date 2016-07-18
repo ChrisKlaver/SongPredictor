@@ -21,13 +21,13 @@ int main(int argc, char** argv)
 			std::cout << "worked";
 		}
 
-		const std::size_t numS = ModPlug_NumChannels(file.get());
+		const std::size_t numChannels = ModPlug_NumChannels(file.get());
 		const std::size_t numPatterns = ModPlug_NumPatterns(file.get());
-		for (int i = file.get()->mSoundFile.Order[0]; i < numPatterns; ++i)
+		for (int i = 0; i < numPatterns * numChannels; ++i)
 		{
 			std::cout << "Pattern: " << i << std::endl;
 			unsigned int numRows;
-			ModPlugNote* notes = ModPlug_GetPattern(file.get(), i, &numRows);
+			ModPlugNote* notes = ModPlug_GetPatternAtOrder(file.get(), i, &numRows);
 			for (unsigned int row = 0; row < numRows; ++row)
 			{
 			
@@ -41,7 +41,7 @@ int main(int argc, char** argv)
 						<< " Parameter: " << static_cast<int>(note.Parameter)
 						<< std::endl;			
 			}
-			if (i == 1) break;
+			if (i == 0) break;
 		}
 		
 	}

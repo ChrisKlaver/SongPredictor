@@ -1,7 +1,7 @@
 #ifndef H_MODPLUGFILEHANDLE
 #define H_MODPLUGFILEHANDLE
 
-class ModPlugFile;
+struct _ModPlugFile;
 
 namespace ModExtractor
 {
@@ -10,15 +10,15 @@ namespace ModExtractor
 	public:
 
 		/// C'tor take ownership of pointer!
-		ModPlugFileHandle(ModPlugFile* modPlugFile);
+		ModPlugFileHandle(_ModPlugFile* modPlugFile);
 		
 		~ModPlugFileHandle(void);
 
-		ModPlugFile* get(void);
+		_ModPlugFile* get(void);
 		
 	private:
 
-		ModPlugFile* m_modPlugFile;
+		_ModPlugFile* m_modPlugFile;
 	};
 }
 

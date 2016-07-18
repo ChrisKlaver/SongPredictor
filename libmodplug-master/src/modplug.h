@@ -156,6 +156,11 @@ MODPLUG_EXPORT unsigned int ModPlug_SampleName(ModPlugFile* file, unsigned int q
 MODPLUG_EXPORT unsigned int ModPlug_InstrumentName(ModPlugFile* file, unsigned int qual, char* buff);
 
 /*
+* Retrieve pattern note-data at some order, i.e. passing order = 1 will yield the first pattern
+*/
+MODPLUG_EXPORT ModPlugNote* ModPlug_GetPatternAtOrder(ModPlugFile* file, int order, unsigned int* numRows);
+
+/*
  * Retrieve pattern note-data
  */
 MODPLUG_EXPORT ModPlugNote* ModPlug_GetPattern(ModPlugFile* file, int pattern, unsigned int* numrows);
