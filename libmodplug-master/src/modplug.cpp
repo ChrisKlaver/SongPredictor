@@ -246,6 +246,7 @@ ModPlugNote* ModPlug_GetPatternAtOrder(ModPlugFile* file, int order, unsigned in
 		const int pattern = file->mSoundFile.Order[order];
 		return ModPlug_GetPattern(file, pattern, numRows);
 	}
+	return nullptr;
 }
 
 ModPlugNote* ModPlug_GetPattern(ModPlugFile* file,int pattern,unsigned int* numrows) {

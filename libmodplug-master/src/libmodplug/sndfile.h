@@ -4,6 +4,7 @@
  * Authors: Olivier Lapicque <olivierl@jps.net>,
  *          Adam Goode       <adam@evdebs.org> (endian and char fixes for PPC)
 */
+#include "stdafx.h"
 
 #if defined(HAVE_CONFIG_H) && !defined(CONFIG_H_INCLUDED)
 #include "config.h"

@@ -106,6 +106,13 @@ add_library(modplug ${LIB_TYPE}
   libmodplug-master/src/sndfile.cpp
   libmodplug-master/src/sndmix.cpp
   libmodplug-master/src/tables.h
+  
+  libmodplug-master/src/cppWrap/Channel.h
+  libmodplug-master/src/cppWrap/Channel.cpp
+  libmodplug-master/src/cppWrap/ModPlugFileHandle.h
+  libmodplug-master/src/cppWrap/ModPlugFileHandle.cpp
+  libmodplug-master/src/cppWrap/SoundFile.h
+  libmodplug-master/src/cppWrap/SoundFile.cpp
   )
 
 # install the library:
