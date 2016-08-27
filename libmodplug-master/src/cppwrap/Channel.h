@@ -12,7 +12,7 @@ namespace ModExtractor
 
 		explicit Channel(const MODCHANNEL& channel );
 
-	private:
+		private:
 
 
 	};

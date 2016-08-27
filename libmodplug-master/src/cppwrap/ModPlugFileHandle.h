@@ -3,23 +3,11 @@
 
 struct _ModPlugFile;
 
+#include <memory>
+
 namespace ModExtractor
 {
-	class ModPlugFileHandle
-	{
-	public:
-
-		/// C'tor take ownership of pointer!
-		ModPlugFileHandle(_ModPlugFile* modPlugFile);
-		
-		~ModPlugFileHandle(void);
-
-		_ModPlugFile* get(void);
-		
-	private:
-
-		_ModPlugFile* m_modPlugFile;
-	};
+	using ModPlugFileHandle = std::shared_ptr < ModPlugFile*, [](ModPlugFile* file) { ModPlug_Unload*(file); } );
 }
 
 #endif
