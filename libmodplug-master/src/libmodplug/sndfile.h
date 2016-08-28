@@ -596,6 +596,9 @@ public:
 	~CSoundFile();
 
 public:
+	/// Clone this sound file
+	CSoundFile* clone(void) const;
+
 	BOOL Create(LPCBYTE lpStream, DWORD dwMemLength=0);
 	BOOL Destroy();
 	UINT GetType() const { return m_nType; }

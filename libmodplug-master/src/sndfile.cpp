@@ -81,6 +81,12 @@ CSoundFile::~CSoundFile()
 }
 
 
+/// Clone this sound file
+CSoundFile* CSoundFile::clone(void) const
+{
+	return new CSoundFile(*this);
+}
+
 BOOL CSoundFile::Create(LPCBYTE lpStream, DWORD dwMemLength)
 //----------------------------------------------------------
 {

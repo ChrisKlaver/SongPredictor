@@ -12,10 +12,11 @@ namespace ModExtractor
 		public:
 
 		/// C'tor specify full path
-		explicit SoundFile(const std::string& fileName);
+		explicit SoundFile(const std::string& fullPathOfFile);
 
 	private:
 
+		/// Stores specific channel info together with the notes
 		std::vector<Channel> m_channels;
 
 	};

@@ -109,6 +109,8 @@ add_library(modplug ${LIB_TYPE}
   
   libmodplug-master/src/cppWrap/Channel.h
   libmodplug-master/src/cppWrap/Channel.cpp
+  libmodplug-master/src/cppWrap/Note.h
+  libmodplug-master/src/cppWrap/Note.cpp
   libmodplug-master/src/cppWrap/SoundFile.h
   libmodplug-master/src/cppWrap/SoundFile.cpp
   )

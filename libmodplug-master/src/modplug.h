@@ -3,9 +3,9 @@
  *
  * Authors: Kenton Varda <temporal@gauge3d.org> (C interface wrapper)
  */
-
 #ifndef MODPLUG_H__INCLUDED
 #define MODPLUG_H__INCLUDED
+#include "sndfile.h"
 
 #ifdef __cplusplus
 extern "C" {
@@ -155,6 +155,8 @@ MODPLUG_EXPORT unsigned int ModPlug_NumChannels(ModPlugFile* file);
 MODPLUG_EXPORT unsigned int ModPlug_SampleName(ModPlugFile* file, unsigned int qual, char* buff);
 MODPLUG_EXPORT unsigned int ModPlug_InstrumentName(ModPlugFile* file, unsigned int qual, char* buff);
 
+/* Get the channels*/
+MODPLUG_EXPORT MODCHANNEL* ModPlug_GetChannels(ModPlugFile* file);
 /*
 * Retrieve pattern note-data at some order, i.e. passing order = 1 will yield the first pattern
 */

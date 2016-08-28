@@ -4,6 +4,7 @@
 #include <vector>
 #include <iostream>
 #include <memory>
+#include <algorithm>
 
 using namespace ModExtractor;
 
@@ -37,17 +38,47 @@ namespace
 		}
 	}
 
+	std::vector<std::vector<ModPlugNote> > getAllNotes(ModPlugFile& file, const std::size_t numChannels)
+	{
+		std::vector<std::vector<ModPlugNote> > notes(numChannels);
+		const std::size_t numPatterns = ModPlug_NumPatterns(&file);
+		for (auto i = 0; i < numPatterns; ++i)
+		{
+			unsigned int numRows;
+			ModPlugNote* rawNotes = ModPlug_GetPatternAtOrder(&file, i, &numRows);
+			std::for_each(notes.begin(), notes.end(), [&numRows](std::vector<ModPlugNote>& n) { n.reserve(numRows + n.size() ); });
+			for (unsigned int row = 0; row < numRows; ++row)
+			{
+				for (auto channel = 0; channel < numChannels; ++channel)
+				{
+					const std::size_t rowsAlreadyVisited = row * channel;
+					notes[channel].push_back(rawNotes[rowsAlreadyVisited + channel]);
+				}
+			}
+		}
+		return notes;
+	}
+
 	std::vector<Channel> initialiseChannels(ModPlugFile& file)
 	{
 		const std::size_t numChannels = ModPlug_NumChannels(&file);
-		std::vector<Channel> channels(numChannels);
+		MODCHANNEL* channelsFromModPlug = ModPlug_GetChannels(&file);
+		std::vector<Channel> channels;
+		channels.reserve(numChannels);
+
+		std::vector<std::vector<ModPlugNote> > notes = getAllNotes(file, numChannels);
+		for (auto i = 0; i < numChannels; ++i)
+		{
+			MODCHANNEL channelInfo = channelsFromModPlug[i];
+			channels.push_back(Channel(channelInfo, notes[i]));
+		}		
 		return channels;
 	}
 }
 
-SoundFile::SoundFile(const std::string& filename)
+SoundFile::SoundFile(const std::string& fullPathOfFile)
 {
-	ModPlugFileHandle fileHandle(getHandle(filename));
+	ModPlugFileHandle fileHandle(getHandle(fullPathOfFile));
 	m_channels = initialiseChannels(*fileHandle);
 
 	const std::size_t numChannels = ModPlug_NumChannels(fileHandle.get());
