@@ -157,6 +157,16 @@ MODPLUG_EXPORT unsigned int ModPlug_InstrumentName(ModPlugFile* file, unsigned i
 
 /* Get the channels*/
 MODPLUG_EXPORT MODCHANNEL* ModPlug_GetChannels(ModPlugFile* file);
+
+/* Get the channel settings*/
+MODPLUG_EXPORT MODCHANNELSETTINGS* ModPlug_GetChannelsSettings(ModPlugFile* file);
+
+/* Get the samples*/
+MODPLUG_EXPORT MODINSTRUMENT* ModPlug_GetInstruments(ModPlugFile* file);
+
+/* Get the instrument headers*/
+MODPLUG_EXPORT INSTRUMENTHEADER** ModPlug_GetInstrumentHeaderS(ModPlugFile* file);
+
 /*
 * Retrieve pattern note-data at some order, i.e. passing order = 1 will yield the first pattern
 */

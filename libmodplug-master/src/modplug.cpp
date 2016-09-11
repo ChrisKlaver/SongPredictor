@@ -211,12 +211,12 @@ char ModPlug_ExportIT(ModPlugFile* file,const char* filepath)
 
 unsigned int ModPlug_NumInstruments(ModPlugFile* file)
 {
-	return file->mSoundFile.m_nInstruments;
+	return file->mSoundFile.GetNumInstruments();
 }
 
 unsigned int ModPlug_NumSamples(ModPlugFile* file)
 {
-	return file->mSoundFile.m_nSamples;
+	return file->mSoundFile.GetNumSamples();
 }
 
 unsigned int ModPlug_NumPatterns(ModPlugFile* file)
@@ -233,6 +233,23 @@ MODCHANNEL* ModPlug_GetChannels(ModPlugFile* file)
 {
 	return file->mSoundFile.Chn;
 }
+
+MODCHANNELSETTINGS* ModPlug_GetChannelsSettings(ModPlugFile* file)
+{
+	return file->mSoundFile.ChnSettings;
+}
+
+MODINSTRUMENT* ModPlug_GetInstruments(ModPlugFile* file)
+{
+	return file->mSoundFile.Ins;
+}
+
+INSTRUMENTHEADER** ModPlug_GetInstrumentHeaders(ModPlugFile* file)
+{
+	return file->mSoundFile.Headers;
+}
+
+
 unsigned int ModPlug_SampleName(ModPlugFile* file,unsigned int qual,char* buff)
 {
 	return file->mSoundFile.GetSampleName(qual,buff);

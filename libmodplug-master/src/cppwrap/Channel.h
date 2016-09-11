@@ -11,7 +11,11 @@ namespace ModExtractor
 	{
 		public:
 
-		explicit Channel(const MODCHANNEL& channel, const std::vector<ModPlugNote>& notes);
+		Channel(
+			const MODCHANNEL& channel,
+			const MODCHANNELSETTINGS& settings,
+			const std::vector<ModPlugNote>& notes
+			);
 
 		private:
 
@@ -19,10 +23,10 @@ namespace ModExtractor
 		std::vector<ModPlugNote> m_notes;
 
 		/// Channel settings
-		MODCHANNEL m_channelSettings;
+		MODCHANNELSETTINGS m_channelSettings;
 
-		/// Instrument
-
+		/// Channel
+		MODCHANNEL m_channel;
 
 	};
 }
